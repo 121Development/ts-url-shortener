@@ -1,19 +1,23 @@
 ## Steps:
+
+- First create Next app: 
+
 npx create-next-app --ts
 
 Initiate DB on Planetscale
 
 Install planetscale CLI https://github.com/planetscale/cli
 
-Set .env DB variable to...
+Set .env DB variable according to Planetscale connect promt
 
-Prisma-Planetscale
+- Then set up Planetscale and Prisma:
 
-Set up Prisma and Planetscale https://planetscale.com/docs/tutorials/prisma-quickstart  
-
-Connect to DB $ pscale connect ts-url-shortener main --port 3309
+https://planetscale.com/docs/tutorials/prisma-quickstart  
 
 ```
+#Connect to DB 
+$ pscale connect ts-url-shortener main --port 3309
+
 #Push changes
 $ npx prisma db push
 
