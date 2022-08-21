@@ -1,4 +1,4 @@
-Steps:
+## Steps:
 npx create-next-app --ts
 Initiate DB on Planetscale
 Install planetscale CLI https://github.com/planetscale/cli
