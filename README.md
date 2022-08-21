@@ -10,9 +10,7 @@ Install planetscale CLI https://github.com/planetscale/cli
 
 Set .env DB variable according to Planetscale connect promt
 
-- Then set up Planetscale and Prisma:
-
-https://planetscale.com/docs/tutorials/prisma-quickstart  
+- Then set up Planetscale and Prisma: https://planetscale.com/docs/tutorials/prisma-quickstart  
 
 ```
 #Connect to DB 
