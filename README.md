@@ -1,3 +1,7 @@
+## Info
+
+This is a bare bones Next, Prisma and Planetscale URl shortener. It does not validate duplicated, provide a UI or other. This is as proof of concept of next and working together with Prisma and Planetscale.
+
 ## Steps:
 
 - First create Next app: 
