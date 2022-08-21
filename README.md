@@ -1,21 +1,20 @@
 ## Steps:
 npx create-next-app --ts
+
 Initiate DB on Planetscale
+
 Install planetscale CLI https://github.com/planetscale/cli
+
 Set .env DB variable to...
+
 Prisma-Planetscale
-    Set up Prisma and Planetscale https://planetscale.com/docs/tutorials/prisma-quickstart  
-        generator client {
-        provider        = "prisma-client-js"
-        previewFeatures = ["referentialIntegrity"]
-        }
-        datasource db {
-        provider             = "mysql"
-        url                  = env("DATABASE_URL")
-        referentialIntegrity = "prisma"
-        }
-        Connect to DB $ pscale connect ts-url-shortener main --port 3309
-        Push changes
+
+Set up Prisma and Planetscale https://planetscale.com/docs/tutorials/prisma-quickstart  
+
+Connect to DB $ pscale connect ts-url-shortener main --port 3309
+
+```
+#Push changes
             $ npx prisma db push
         Inspect schema in webbrowswer
             $ npx prisma studio
@@ -27,7 +26,7 @@ create src folder
 Inspect project
     $ npm run dev 
     https://localhost:3000
-
+    ```
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
